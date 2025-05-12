@@ -5,7 +5,7 @@ A full-stack note-taking application built with Django REST Framework and React.
 ## Features
 
 - User authentication with JWT
-- Create, read, and delete notes
+- Create, read, and delete notes (To be implemented)
 - Protected routes
 - Automatic token refresh
 - Dockerized services (PostgreSQL, Django, React)
