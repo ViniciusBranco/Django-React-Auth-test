@@ -1,4 +1,4 @@
-# Vita.AI Note Taking App
+# Django-React-Auth Test-App
 
 A full-stack note-taking application built with Django REST Framework and React.
 
