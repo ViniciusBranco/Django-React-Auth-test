@@ -30,8 +30,8 @@ A full-stack note-taking application built with Django REST Framework and React.
 
 1. Create `.env` file in the root directory based on `.env.example`:
 ```bash
-DB_NAME=bkndb
-DB_USER=bkndb
+DB_NAME=dbname
+DB_USER=dbuser
 DB_PASSWORD=your_secure_password
 DEBUG=1
 DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1
@@ -69,9 +69,9 @@ npm run dev
 ### Required Environment Variables
 | Variable | Description | Default |
 |----------|-------------|---------|
-| DB_NAME | PostgreSQL database name | bkndb |
-| DB_USER | PostgreSQL username | bkndb |
-| DB_PASSWORD | PostgreSQL password | bkndb |
+| DB_NAME | PostgreSQL database name | db_name |
+| DB_USER | PostgreSQL username | db_user |
+| DB_PASSWORD | PostgreSQL password | db_password |
 | DEBUG | Django debug mode | 1 |
 | DJANGO_ALLOWED_HOSTS | Allowed hosts for Django | localhost,127.0.0.1 |
 | CORS_ALLOWED_ORIGINS | CORS allowed origins | http://localhost:5173 |
