@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     python3-dev \
     libpq-dev \
     wget \
+    netcat-traditional \
     && wget -q https://github.com/eficode/wait-for/releases/download/v2.2.3/wait-for \
     && chmod +x wait-for \
     && mv wait-for /usr/local/bin/ \
