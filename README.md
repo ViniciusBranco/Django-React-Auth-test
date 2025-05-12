@@ -1,4 +1,4 @@
-# Django-React-Auth Test-App
+# Django+React: A Note Taken Authenticated Test-App
 
 A full-stack note-taking application built with Django REST Framework and React.
 
